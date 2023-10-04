@@ -1,5 +1,5 @@
 // code from https://github.com/facebook/jest/blob/master/packages/jest-runner/src/testWorker.ts
-import { ipcRenderer, remote } from 'electron';
+import { ipcRenderer } from 'electron';
 import * as Runtime from 'jest-runtime';
 import * as HasteMap from 'jest-haste-map';
 import * as Resolver from 'jest-resolve';

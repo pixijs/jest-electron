@@ -127,7 +127,7 @@ export class Electron {
     });
   }
 
-  public initialWin(): Promise<any> {
+  public initialWin(): Promise<void> {
     return new Promise((resolve, reject) => {
       this.get().then((proc) => {
         const listener = ({ type }) => {

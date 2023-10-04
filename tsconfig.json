@@ -6,6 +6,7 @@
     "target": "es5",
     "outDir": "lib",
     "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
     "lib": ["esnext", "dom"],
     "jsx": "react"
   },

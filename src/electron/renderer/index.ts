@@ -1,4 +1,4 @@
-import { ipcRenderer, remote } from 'electron';
+import { ipcRenderer } from 'electron';
 import { EventsEnum } from '../../utils/constant';
 import { fail, run } from './uitl';
 import { addResult, bindFailureMessageClickEvent, clearResult } from './dom';

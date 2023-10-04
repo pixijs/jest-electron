@@ -1,6 +1,6 @@
 {
   "name": "@pixi/jest-electron",
-  "version": "25.0.0",
+  "version": "26.0.0",
   "description": "Easiest way to run jest unit test cases in electron.",
   "main": "index.js",
   "files": [
